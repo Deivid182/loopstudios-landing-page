@@ -4,12 +4,12 @@ const Grid = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
       {dataDesktop.map((item) => (
-        <section key={item.id} className='lg:h-[500px] h-[200px]'>
+        <section key={item.id} className='lg:h-[500px] h-[160px]'>
           <div className='flex max-lg:items-end lg:flex-col lg:justify-end relative' style={{
             backgroundImage: `url(${item.image})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'top center',
             height: '100%',
           }}>
             <div className='absolute inset-0 w-full h-full bg-black opacity-30'/>

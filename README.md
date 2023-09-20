@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Bookmark landing page solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Expanding the ESLint configuration
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Overview
 
-- Configure the top-level `parserOptions` property like this:
+### The challenge
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Users should be able to:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](https://res.cloudinary.com/dqsvp22du/image/upload/v1695193384/Screenshot_from_2023-09-20_01-02-20_xudugh.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/Deivid182/bookmark-site)
+- Live Site URL: [Add live site URL here](https://hilarious-kelpie-b80927.netlify.app/)
+
+## My process
+
+### Built with
+
+- React.js
+- TypeScript
+- HeadlessUI
+
+### What I learned
+
+This little landing page was a great opportunity to put in practice a library called Headless for the mobile navbar because I had no idea how to make a drawer like that, but this one make that kind of things so easy to build.
+
+
+### Useful resources
+
+- [Shadcn/ui](https://headlessui.com/) - Library made by the makers of TailwindCSS.
+## Author
+
+- Website - [David](https://david-pm.vercel.app/)
+- Frontend Mentor - [@deivid182](https://www.frontendmentor.io/profile/Deivid182)
+- Twitter - [@DaveDev5173](https://twitter.com/DaveDev5173)

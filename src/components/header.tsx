@@ -19,19 +19,19 @@ const Header = () => {
           <nav className='items-center justify-between py-6 flex'>
             <h1 className='text-4xl font-bold text-white font-Alata'>loopstudios</h1>
             <ul className='hidden lg:flex items-center gap-x-6'>
-              <li className='text-white text-lg tracking- font-Alata font-light'>
+              <li className='text-white text-lg tracking- font-Alata font-light hover:border-b hover:border-white p-2 transition-colors'>
                 <a href="#">About</a>
               </li>
-              <li className='text-white text-lg tracking- font-Alata font-light'>
+              <li className='text-white text-lg tracking- font-Alata font-light hover:border-b hover:border-white p-2 transition-colors'>
                 <a href="#">Careers</a>
               </li>
-              <li className='text-white text-lg tracking- font-Alata font-light'>
+              <li className='text-white text-lg tracking- font-Alata font-light hover:border-b hover:border-white p-2 transition-colors'>
                 <a href="#">Events</a>
               </li>
-              <li className='text-white text-lg tracking- font-Alata font-light'>
+              <li className='text-white text-lg tracking- font-Alata font-light hover:border-b hover:border-white p-2 transition-colors'>
                 <a href="#">Products</a>
               </li>
-              <li className='text-white text-lg tracking- font-Alata font-light'>
+              <li className='text-white text-lg tracking- font-Alata font-light hover:border-b hover:border-white p-2 transition-colors'>
                 <a href="#">Support</a>
               </li>
             </ul>
