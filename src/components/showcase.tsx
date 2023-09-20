@@ -13,7 +13,7 @@ const Showcase = () => {
               className='w-full object-cover relative z-10'
             />
           </div>
-          <article className='lg:pl-16 lg:pt-16 bg-white space-y-4 lg:z-10 transform lg:-translate-x-32 lg:bg-white flex-[0.8]'>
+          <article className='lg:pl-16 lg:pt-16 bg-white space-y-4 lg:z-20 transform lg:-translate-x-32 lg:bg-white flex-[0.8]'>
             <h2 className='font-light text-3xl max-lg:text-center lg:text-6xl uppercase font-Josefin tracking-tight lg:w-[130%]'>The leader in interactive VR</h2>
             <p className='max-lg:text-center max-lg:px-6 text-slate-gray leading-7 lg:w-[130%]'>
               Founded in 2011, Loopstudios has been producing world-class virtual reality
