@@ -38,7 +38,7 @@ const Header = () => {
             </ul>
             <div 
               onClick={() => setOpen(true)}
-              className='flex lg:hidden items-center justify-center p-2 rounded-md hover:bg-neutral-400/60 cursor-pointer'
+              className='flex lg:hidden items-center justify-center p-2 rounded-md hover:bg-neutral-400/60 cursor-pointer z-10'
             >
               <img
                 src={iconHamburger}

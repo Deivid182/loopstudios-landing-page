@@ -3,7 +3,7 @@ import { iconInstagram, iconFacebook, iconTwitter } from '../images/icons'
 
 const Footer = () => {
   return (
-    <footer className='padding-y bg-black'>
+    <footer id='footer' className='padding-y bg-black'>
       <Container>
         <div className='flex max-lg:flex-col items-center justify-between max-lg:gap-y-6 gap-y-0 text-white'>
           <div className='flex flex-col gap-y-8'>
