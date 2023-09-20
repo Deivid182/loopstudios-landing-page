@@ -15,7 +15,7 @@ const Header = () => {
         onClose={() => setOpen(false)}
       />
       <div className='bg-hero'>
-        <div className='absolute inset-0 w-full h-[580px] lg:h-[750px] bg-black/50'/>
+        <div className='absolute inset-0 w-full h-[800px] lg:h-[750px] bg-black/50'/>
         <Container>
           <nav className='items-center justify-between py-6 flex'>
             <h1 className='text-4xl font-bold text-white font-Alata z-10'>loopstudios</h1>
