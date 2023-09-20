@@ -10,19 +10,8 @@ const MenuMobile: React.FC<MenuDrawerProps> = ({ isOpen, onClose }) => {
   return (
     <>
       <Transition.Root show={isOpen} as={Fragment}>
-        <Dialog as='div' onClose={onClose} className={'relative z-10'}>
-          <Transition.Child
-            as={Fragment}
-            enter='ease-out duration-300'
-            enterFrom='opacity-0'
-            enterTo='opacity-100'
-            leave='ease-in duration-200'
-            leaveFrom='opacity-100'
-            leaveTo='opacity-0'
-          >
-            <div className='fixed inset-0 bg-black bg-opacity-20' />
-          </Transition.Child>
-          <div className='fixed inset-0 overflow-hidden'>
+        <Dialog as='div' onClose={onClose} className={'relative z-50'}>
+          <div className='fixed inset-0 z-50 overflow-hidden'>
             <div className='absolute inset-0 overflow-hidden'>
               <div className='pointer-events-none fixed inset-0 top-0 flex max-w-full'>
                 <Transition.Child

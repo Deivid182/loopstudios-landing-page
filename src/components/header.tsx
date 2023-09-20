@@ -49,7 +49,7 @@ const Header = () => {
               />
             </div>
           </nav>
-          <div className='flex items-start max-lg:justify-center flex-wrap mt-28 lg:mt-52 '>
+          <div className='flex items-start max-lg:justify-center flex-wrap mt-28 lg:mt-52'>
             <div className='border-white border-2 max-lg:w-[95%] w-[600px] p-6 lg:p-12 z-10'>
               <h2 className='text-white text-3xl lg:text-6xl uppercase font-Josefin font-medium'>
                 Inmersive experiences that deliver
